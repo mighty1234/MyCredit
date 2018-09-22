@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Greeter.cs" />
+    <Compile Include="HiGreeter.cs" />
+    <Compile Include="HelloGreeter.cs" />
     <Compile Include="IGreeter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

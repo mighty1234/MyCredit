@@ -9,5 +9,6 @@ namespace Repositories
   public interface IGreeter
     {
         string SayHello();
+ 
     }
 }

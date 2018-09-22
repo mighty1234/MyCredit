@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Repositories
 {
-    public class Class1
+    public class HelloGreeter:IGreeter
     {
+        public string SayHello()
+        {
+            return "Hi everyone!»";
+        }
     }
 }
