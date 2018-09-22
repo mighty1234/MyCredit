@@ -12,12 +12,12 @@ namespace MyCredit.Controllers
     public class HiController : ApiController
     {
         private IGreeter _greeter;
-
+        
         public HiController([Dependency("HiController")]IGreeter greeter)
         {
             _greeter = greeter;
         }
-        // GET: api/Hi
+        // GET: /Hi
         public string  Get()
         {
             return _greeter.SayHello();

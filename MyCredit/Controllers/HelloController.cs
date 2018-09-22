@@ -18,7 +18,7 @@ namespace MyCredit.Controllers
         {
             _greeter = greeter;
         }
-        // GET: api/Hello
+       //Hello
         public string Get()
         {
             return _greeter.SayHello();
